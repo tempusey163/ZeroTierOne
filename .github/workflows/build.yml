@@ -105,4 +105,3 @@ jobs:
     - name: msbuild
       run: |
         msbuild windows\ZeroTierOne.sln /m /p:Configuration=Release  /property:Platform=x64 /t:ZeroTierOne:Rebuild        
-
